@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Conversation Backup",
+  "version": "1.0.2",
+  "description": "Scroll through the open Gemini conversation and save a static HTML snapshot.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Back up this Gemini conversation",
+    "default_popup": "popup.html"
+  }
+}
